@@ -72,7 +72,7 @@ body {
 }
 
 .landing h1 {
-  font-size: 2rem;
+  font-size: 2.15rem;
   font-weight: 700;
   text-align: center;
   margin-bottom: 0.5rem;
@@ -82,11 +82,11 @@ body {
 }
 
 .landing .subtitle {
-  font-size: 0.95rem;
+  font-size: 1.0rem;
   color: var(--text-secondary);
   text-align: center;
   margin-bottom: 2.5rem;
-  max-width: 600px;
+  max-width: 640px;
   line-height: 1.6;
 }
 
@@ -94,7 +94,7 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.25rem;
-  max-width: 900px;
+  max-width: 950px;
   width: 100%;
 }
 
@@ -129,7 +129,7 @@ body {
 
 .condition-card .tag {
   display: inline-block;
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -138,8 +138,8 @@ body {
   margin-bottom: 0.75rem;
 }
 
-.condition-card h3 { font-size: 1.1rem; font-weight: 600; margin-bottom: 0.5rem; }
-.condition-card p { font-size: 0.82rem; color: var(--text-secondary); line-height: 1.55; }
+.condition-card h3 { font-size: 1.15rem; font-weight: 600; margin-bottom: 0.5rem; }
+.condition-card p { font-size: 0.88rem; color: var(--text-secondary); line-height: 1.55; }
 
 .tag-a { background: rgba(100,116,139,0.2); color: #94a3b8; }
 .tag-b { background: rgba(59,130,246,0.15); color: #60a5fa; }
@@ -148,8 +148,8 @@ body {
 /* Main simulation layout */
 .sim-container {
   display: grid;
-  grid-template-columns: 280px 1fr 320px;
-  grid-template-rows: 56px 1fr;
+  grid-template-columns: 300px 1fr 320px;
+  grid-template-rows: 64px 1fr;
   height: 100vh;
   gap: 0;
 }
@@ -166,7 +166,7 @@ body {
 }
 
 .topbar-brand {
-  font-size: 0.85rem;
+  font-size: 1.05rem;
   font-weight: 600;
   color: var(--text-primary);
   display: flex;
@@ -186,7 +186,7 @@ body {
   align-items: center;
   gap: 1.5rem;
   margin-left: auto;
-  font-size: 0.78rem;
+  font-size: 0.9rem;
   color: var(--text-secondary);
 }
 
@@ -194,7 +194,7 @@ body {
   padding: 0.2rem 0.6rem;
   border-radius: 4px;
   font-weight: 500;
-  font-size: 0.72rem;
+  font-size: 0.85rem;
 }
 
 .badge-static { background: rgba(100,116,139,0.2); color: #94a3b8; }
@@ -211,7 +211,7 @@ body {
 
 .panel-section { margin-bottom: 1.25rem; }
 .panel-title {
-  font-size: 0.7rem;
+  font-size: 0.85rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -219,15 +219,15 @@ body {
   margin-bottom: 0.6rem;
 }
 
-.phase-list { display: flex; flex-direction: column; gap: 0.35rem; }
+.phase-list { display: flex; flex-direction: column; gap: 0.25rem; }
 
 .phase-item {
   display: flex;
   align-items: center;
   gap: 0.6rem;
-  padding: 0.5rem 0.6rem;
+  padding: 0.35rem 0.6rem;
   border-radius: 8px;
-  font-size: 0.8rem;
+  font-size: 0.95rem;
   color: var(--text-secondary);
   transition: all 0.3s;
   position: relative;
@@ -263,8 +263,8 @@ body {
   text-align: center;
 }
 
-.vital-label { font-size: 0.65rem; color: var(--text-muted); margin-bottom: 0.2rem; }
-.vital-value { font-size: 1.1rem; font-weight: 600; }
+.vital-label { font-size: 0.75rem; color: var(--text-muted); margin-bottom: 0.2rem; }
+.vital-value { font-size: 1.25rem; font-weight: 600; }
 .vital-value.normal { color: var(--accent-green); }
 .vital-value.warning { color: var(--accent-amber); }
 .vital-value.danger { color: var(--accent-red); }
@@ -291,7 +291,7 @@ body {
   position: absolute;
   top: 0.75rem;
   left: 0.75rem;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   color: var(--text-muted);
   display: flex;
   align-items: center;
@@ -339,7 +339,7 @@ body {
 }
 
 .event-type {
-  font-size: 0.68rem;
+  font-size: 0.74rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.06em;
@@ -351,17 +351,17 @@ body {
 .event-type.alert { background: rgba(239,68,68,0.15); color: #f87171; }
 .event-type.info { background: rgba(20,184,166,0.15); color: #5eead4; }
 
-.event-timer { font-size: 0.78rem; color: var(--text-muted); }
+.event-timer { font-size: 0.84rem; color: var(--text-muted); }
 
-.event-title { font-size: 0.95rem; font-weight: 600; margin-bottom: 0.4rem; }
-.event-desc { font-size: 0.82rem; color: var(--text-secondary); line-height: 1.5; margin-bottom: 0.8rem; }
+.event-title { font-size: 1.05rem; font-weight: 600; margin-bottom: 0.4rem; }
+.event-desc { font-size: 0.9rem; color: var(--text-secondary); line-height: 1.5; margin-bottom: 0.8rem; }
 
 .event-actions { display: flex; gap: 0.6rem; }
 
 .btn {
   padding: 0.5rem 1.25rem;
   border-radius: 8px;
-  font-size: 0.82rem;
+  font-size: 0.9rem;
   font-weight: 500;
   border: none;
   cursor: pointer;
@@ -427,7 +427,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 0.35rem 0;
-  font-size: 0.78rem;
+  font-size: 0.84rem;
 }
 
 .ai-detail-label { color: var(--text-muted); }
@@ -439,11 +439,11 @@ body {
   gap: 0.6rem;
   padding: 0.5rem 0;
   border-bottom: 1px solid rgba(42,52,68,0.5);
-  font-size: 0.78rem;
+  font-size: 0.84rem;
   animation: fadeIn 0.3s ease-out;
 }
 
-.log-time { color: var(--text-muted); font-family: 'JetBrains Mono', monospace; font-size: 0.72rem; flex-shrink: 0; }
+.log-time { color: var(--text-muted); font-family: 'JetBrains Mono', monospace; font-size: 0.78rem; flex-shrink: 0; }
 .log-text { color: var(--text-secondary); line-height: 1.4; }
 .log-text.user-action { color: var(--accent-blue); }
 .log-text.ai-action { color: var(--accent-teal); }
@@ -458,7 +458,7 @@ body {
 }
 
 .phase-info-title {
-  font-size: 0.9rem;
+  font-size: 1.0rem;
   font-weight: 600;
   margin-bottom: 0.4rem;
 }
@@ -479,7 +479,7 @@ body {
 .risk-medium { background: var(--accent-amber); }
 .risk-high { background: var(--accent-red); }
 
-.risk-label { font-size: 0.78rem; color: var(--text-secondary); }
+.risk-label { font-size: 0.84rem; color: var(--text-secondary); }
 
 /* Progress bar */
 .progress-track {
@@ -509,7 +509,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 0.35rem 0;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 .stat-label { color: var(--text-muted); }
@@ -537,7 +537,7 @@ body {
 }
 
 .completion-card h2 {
-  font-size: 1.5rem;
+  font-size: 1.65rem;
   margin-bottom: 0.5rem;
 }
 
@@ -554,16 +554,16 @@ body {
   padding: 1rem;
 }
 
-.completion-stat .num { font-size: 1.8rem; font-weight: 700; }
-.completion-stat .label { font-size: 0.75rem; color: var(--text-muted); margin-top: 0.25rem; }
+.completion-stat .num { font-size: 1.95rem; font-weight: 700; }
+.completion-stat .label { font-size: 0.85rem; color: var(--text-muted); margin-top: 0.25rem; }
 
 /* Responsive */
 @media (max-width: 1200px) {
-  .sim-container { grid-template-columns: 240px 1fr 280px; }
+  .sim-container { grid-template-columns: 260px 1fr 280px; }
 }
 @media (max-width: 900px) {
   .condition-grid { grid-template-columns: 1fr; max-width: 400px; }
-  .sim-container { grid-template-columns: 1fr; grid-template-rows: 56px 1fr; }
+  .sim-container { grid-template-columns: 1fr; grid-template-rows: 64px 1fr; }
   .left-panel, .right-panel { display: none; }
 }
 </style>
@@ -917,10 +917,6 @@ function App() {
             <p>수술 단계와 AI 상태(Confidence, Reasoning)를 모두 반영하여 정보를 적응적으로 제시합니다.</p>
           </div>
         </div>
-        <p style={{marginTop: '1.5rem', fontSize: '0.75rem', color: 'var(--text-muted)'}}>
-          Phase definitions based on Cholec80 Dataset (Twinanda et al., CAMMA, 2017) · 80 videos, 5 phases, 25fps<br/>
-          Kookmin University · Smart Experience Design Lab · 2026
-        </p>
       </div>
     );
   }
@@ -935,47 +931,9 @@ function App() {
       <div className="completion-screen animate-in">
         <div className="completion-card">
           <h2>시뮬레이션 완료</h2>
-          <p style={{color: 'var(--text-secondary)', marginBottom: '0.5rem'}}>
-            조건 {condition}: {condition === 'A' ? 'Static' : condition === 'B' ? 'Phase-Adaptive' : 'Phase + AI-State Adaptive'}
-          </p>
-          <div className="completion-stats">
-            <div className="completion-stat">
-              <div className="num" style={{color: 'var(--accent-teal)'}}>{correct}/{total}</div>
-              <div className="label">적절한 의사결정</div>
-            </div>
-            <div className="completion-stat">
-              <div className="num" style={{color: 'var(--accent-blue)'}}>{avgTime}s</div>
-              <div className="label">평균 반응 시간</div>
-            </div>
-            <div className="completion-stat">
-              <div className="num" style={{color: 'var(--accent-purple)'}}>{interventions}</div>
-              <div className="label">의사 개입 횟수</div>
-            </div>
-          </div>
-
-          <div style={{textAlign: 'left', marginTop: '1rem'}}>
-            <div className="panel-title" style={{marginBottom: '0.6rem'}}>의사결정 기록</div>
-            {decisions.map((d, i) => {
-              const evt = Object.values(EVENTS_BY_PHASE).flat().find(e => e.id === d.eventId);
-              return (
-                <div key={i} style={{
-                  display: 'flex', justifyContent: 'space-between', alignItems: 'center',
-                  padding: '0.5rem 0', borderBottom: '1px solid var(--border)', fontSize: '0.8rem'
-                }}>
-                  <span style={{color: d.correct ? 'var(--accent-green)' : 'var(--accent-red)'}}>
-                    {d.correct ? '✓' : '✗'} {evt?.title?.slice(0, 30)}...
-                  </span>
-                  <span className="mono" style={{color: 'var(--text-muted)', fontSize: '0.72rem'}}>
-                    {d.action === 'approve' ? '승인' : '개입'} · {d.responseTime}s
-                  </span>
-                </div>
-              );
-            })}
-          </div>
-
-          <div style={{display: 'flex', gap: '0.6rem', marginTop: '1.5rem', justifyContent: 'center'}}>
+          <div style={{display: 'flex', gap: '0.6rem', marginTop: '2rem', justifyContent: 'center'}}>
             <button className="btn btn-approve" onClick={() => { setScreen('landing'); setDecisions([]); setLogs([]); }}>
-              다른 조건으로 재시작
+              종료하기
             </button>
           </div>
         </div>
